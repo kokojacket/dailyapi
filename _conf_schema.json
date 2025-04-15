@@ -1,0 +1,20 @@
+{
+    "morning_news": {
+        "description": "早报功能设置",
+        "type": "object",
+        "items": {
+            "command": {
+                "description": "早报触发命令",
+                "type": "string",
+                "hint": "用户发送该命令时会触发早报功能",
+                "default": "早报"
+            },
+            "enabled": {
+                "description": "是否启用早报功能",
+                "type": "bool",
+                "hint": "关闭后将不再响应早报命令",
+                "default": true
+            }
+        }
+    }
+} 

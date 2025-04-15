@@ -1,0 +1,9 @@
+# DailyAPI 插件配置文件
+# 在AstrBot管理面板中修改配置后会自动更新此文件
+
+# 早报功能配置
+morning_news:
+  # 触发命令
+  command: "早报"
+  # 是否启用
+  enabled: true 
